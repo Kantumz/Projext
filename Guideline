@@ -6,6 +6,12 @@
  sudo php composer-setup.php --install-dir=/usr/bin --filename=composer
  → Mise en place de Composer (en modifiant le install dir)
 
+
+#2nd step : Laravel install
+
+composer create-project --prefer-dist laravel/laravel *folder*
+→ Création du folder contenant tout le projet Laravel
+
 // Il se peut que mbstring & dom ne soit pas installé, procéder alors à leur installation : 
 
 sudo apt-get install php7.0-mbstring
