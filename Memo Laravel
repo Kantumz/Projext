@@ -1,0 +1,7 @@
+Exemple pour la page d'accueil : 
+
+  Routes : /routes/web.php
+    → Contient view('welcome')
+    
+  Utilise le fichier : /resources/views/welcome.blade.php
+    → Affiche la page d'accueil
