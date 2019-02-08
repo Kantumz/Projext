@@ -1,0 +1,9 @@
+# 1st step : Composer install
+
+ sudo php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+ → Création du fichier de téléchargement Composer
+ 
+ sudo php composer-setup.php --install-dir=/usr/bin --filename=composer
+ → Mise en place de Composer (en modifiant le install dir)
+
+
