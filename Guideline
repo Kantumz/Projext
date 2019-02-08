@@ -7,7 +7,7 @@
  → Mise en place de Composer (en modifiant le install dir)
 
 
-#2nd step : Laravel install
+# 2nd step : Laravel install
 
 composer create-project --prefer-dist laravel/laravel *folder*
 → Création du folder contenant tout le projet Laravel
@@ -16,3 +16,9 @@ composer create-project --prefer-dist laravel/laravel *folder*
 
 sudo apt-get install php7.0-mbstring
 sudo apt-get install php-xml
+
+// Mémo : si un problème de droit survient, possibilité de changer l'owner facilement
+
+sudo chown -R *user*:*group* *directory*
+
+# 3rd step : Laravel project
